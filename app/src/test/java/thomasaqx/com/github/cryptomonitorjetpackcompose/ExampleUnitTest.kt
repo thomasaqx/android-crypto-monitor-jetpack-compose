@@ -1,4 +1,4 @@
-package carreiras.com.github.cryptomonitor
+package thomasaqx.com.github.cryptomonitorjetpackcompose
 
 import org.junit.Test
 

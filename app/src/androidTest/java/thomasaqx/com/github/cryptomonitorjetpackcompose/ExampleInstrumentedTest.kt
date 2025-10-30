@@ -1,4 +1,4 @@
-package carreiras.com.github.cryptomonitor
+package thomasaqx.com.github.cryptomonitorjetpackcompose
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
