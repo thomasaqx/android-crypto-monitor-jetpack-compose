@@ -45,7 +45,6 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-// 1. Mudar a herança para ComponentActivity
 class MainActivity : ComponentActivity() {
 
     private val service = MercadoBitcoinServiceFactory().create()
@@ -54,7 +53,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // 2. Usar setContent em vez de setContentView
         setContent {
             // 3. Definir o estado que a UI vai observar
             // Estes 'remember' guardam o estado mesmo quando a UI é redesenhada
